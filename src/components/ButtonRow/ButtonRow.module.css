@@ -1,2 +1,8 @@
 .buttonRow {
+  /* forces the inline elements aka the buttons to not line wrap 
+    so overflow can happen  */
+  white-space: nowrap;
+  overflow: auto;
+  margin: 0 -22px -22px -22px;
+  padding: 24px;
 }
