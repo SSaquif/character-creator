@@ -1,6 +1,7 @@
 .characterEditor {
   padding-top: 128px;
   padding-bottom: 64px;
+  /* border: solid; */
 }
 
 .maxWidthWrapper {
@@ -8,6 +9,8 @@
 
 .header {
   padding-bottom: 64px;
+  width: 65%;
+  /* border-right: lightcoral solid; */
 }
 
 .title {
@@ -24,7 +27,15 @@
 }
 
 .characterWrapper {
+  /* border: solid khaki; */
+  position: fixed;
+  top: 194px;
+  left: 50%;
+  bottom: 5%;
+  margin-left: 48px;
+  min-height: 500px;
 }
 
 .controlColumn {
+  width: 50%;
 }
